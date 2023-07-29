@@ -1,0 +1,125 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+  <title>reveal.js</title>
+
+  <link rel="stylesheet" href="dist/reset.css">
+  <link rel="stylesheet" href="dist/reveal.css">
+  <link rel="stylesheet" href="dist/theme/sky.css">
+
+  <!-- Theme used for syntax highlighted code -->
+  <link rel="stylesheet" href="plugin/highlight/monokai.css">
+</head>
+
+<body>
+  <div class="reveal">
+    <div class="slides">
+      <section>
+        <h2>Big O Notation</h2>
+        <img src="./examples/assets/big-O.png" alt="big-o">
+        <p>Alexandra Suvorova, 2023</p>
+        <!-- <img src="./examples/assets/rs-logo.png" alt="school-logo" width="60px" height="20px"> -->
+      </section>
+      <section>
+        <h3>What is Big O Notation?</h3>
+        <img src="./examples/assets/slide1.png" alt="diogramma">
+      </section>
+      <section>
+        <h3>Why do we need Big O Notation?</h3>
+        <p>Big-O notation is a way to express the efficiency of an algorithm. <br>If you’re going to be working with
+          code,
+          it is extremely important that you understand Big-O. It is, quite literally, the language we use to express
+          efficiency.</p>
+        <img src="./examples/assets/slide3.png" alt="person">
+      </section>
+      <section>
+        <h3>Types of time complexity of algorithms :</h3>
+        <ul>
+          <li>Constant: O(1)</li>
+          <li>Linear time: O(n)</li>
+          <li>Logarithmic time: O(log n)</li>
+          <li>Long-linear time: O(n log n)</li>
+          <li>Quadratic time: O(n^2)</li>
+          <!-- <li>Exponential time: 2^(n)</li>
+          <li>Factorial time: O(n!)</li> -->
+        </ul>
+      </section>
+      <section>
+        <h3>Constant: O(1)</h3>
+        <img src="./examples/assets/slide 5.png" alt="code">
+      </section>
+      <section>
+        <h3>Linear time: O(n)</h3>
+        <img src="./examples/assets/slide 6.png" alt="code">
+      </section>
+      <section>
+        <h3>Logarithmic time: O(log n)</h3>
+        <img src="./examples/assets/slide 7.png" alt="code" width="450px" height="500px">
+      </section>
+      <section>
+        <h3>Long-linear time: O(n log n)</h3>
+        <img src="./examples/assets/slide 8.png" alt="code" width="500px" height="550px">
+      </section>
+      <section>
+        <h3>Quadratic time: O(n^2)</h3>
+        <img src="./examples/assets/slide 9.png" alt="code" width="550px" height="500px">
+      </section>
+      <section>
+        <h3>Conclusion :</h3>
+        <img src="./examples/assets/conclusion.png" alt="code">
+      </section>
+      <section>
+        <h3>Bibliography :</h3>
+        <ol>
+          <li>
+            <a href="https://flexiple.com/algorithms/big-o-notation-cheat-sheet/">
+              https://flexiple.com/algorithms/big-o-notation-cheat-sheet/
+            </a>
+          </li>
+          <li>
+            <a href="https://www.linkedin.com/pulse/big-o-notation-simple-explanation-examples-pamela-lovett/">
+              https://www.linkedin.com/pulse/big-o-notation-simple-explanation-examples-pamela-lovett/
+            </a>
+          </li>
+          <li>
+            <a href="https://www.data-structures-in-practice.com/big-o-notation/">
+              https://www.data-structures-in-practice.com/big-o-notation/
+            </a>
+          </li>
+          <li>
+            <a href="https://blog.devgenius.io/big-o-notation-583adf20af1">
+              https://blog.devgenius.io/big-o-notation-583adf20af1
+            </a>
+          </li>
+        </ol>
+      </section>
+      <section>
+        <img src="./examples/assets/slide.png" alt="thank-you-for-attention">
+      </section>
+
+    </div>
+  </div>
+
+  <script src="dist/reveal.js"></script>
+  <script src="plugin/notes/notes.js"></script>
+  <script src="plugin/markdown/markdown.js"></script>
+  <script src="plugin/highlight/highlight.js"></script>
+  <script>
+    // More info about initialization & config:
+    // - https://revealjs.com/initialization/
+    // - https://revealjs.com/config/
+    Reveal.initialize({
+      hash: true,
+      slideNumber: 'c/t',
+
+      // Learn about plugins: https://revealjs.com/plugins/
+      plugins: [RevealMarkdown, RevealHighlight, RevealNotes]
+    });
+  </script>
+</body>
+
+</html>
